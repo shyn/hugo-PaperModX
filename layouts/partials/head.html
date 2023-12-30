@@ -13,6 +13,8 @@
   {{- $pageTitle = printf "%s | %s" .Title $pageTitle }}
 {{- end }}
 <title>{{ $pageTitle }}</title>
+{{- /* IndieLogin */ -}}
+<link href="https://github.com/shyn" rel="me">
 
 {{- /* Meta */}}
 {{- if .IsHome }}
